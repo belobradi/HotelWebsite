@@ -1,0 +1,287 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: gray;
+}
+
+/* Global */
+h1 {
+    color: #fff;
+}
+
+p {
+    color: #fff;
+    line-height: 1.7em;
+    font-size: 1.3em;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+span {
+    color: #f7c08a;
+}
+
+.active {
+    background: #444444;
+    color: #f7c08a;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* navbar */
+
+#navbar {
+    overflow: auto;
+    background: #333;
+    line-height: 2em;
+}
+
+#navbar a{
+    font-size: 1.2em;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+}
+
+#navbar ul li a:hover {
+    background: #444444;
+    color: #f7c08a;
+}
+
+/* showcase */
+
+#showcase {
+    background-image: url(/img/showcase.jpg);
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+    text-align: center;
+}
+
+#showcase-content {
+    margin-top: 200px;
+}
+
+#showcase-content h1 {
+    font-size: 4em;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+#showcase-content p {
+    font-size: 1.4em;
+    margin-bottom: 40px;
+}
+
+#showcase-content a {
+    font-size: 1.4em;
+    padding: 20px;
+    background: #333333;
+    display: inline-block;
+}
+
+#showcase-content a:hover {
+    background: #f7c08a;
+    color: #333;
+}
+
+/* history */
+#history {
+    height: 500px;
+}
+
+#his-image {
+    float: left;
+    background: url(/img/photo-1.jpg);
+    width: 50%;
+    height: 100%;
+}
+
+#his-content {
+    float: left;
+    background: #333;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+#his-content h1 {
+    text-align: center;
+    font-size: 1.8em;
+    margin: 60px 20px 40px 40px;
+}
+
+#his-content p{
+    margin: 0 40px;
+}
+
+#his-content a{
+    display: inline-block;
+    color: #333;
+    background: #f4f4f4;
+    padding: 20px;
+    font-size: 1.4em;
+    margin-top: 40px;
+}
+#his-content a:hover {
+    background: #f7c08a;
+}
+
+/* Description */
+#desctiption {
+    height: 310px;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+#desctiption #location {
+    float: left;
+    width: 33.33%;
+    height: 100%;
+}
+
+#desctiption #meals {
+    float: left;
+    width: 33.33%;
+    height: 100%;
+    background: #f7c08a;
+}
+
+#desctiption #accessories {
+    float: left;
+    width: 33.33%;
+    height: 100%;
+}
+
+#desctiption h1 {
+    color: #333;
+    margin: 70px 20px 40px 20px;
+}
+
+#desctiption p {
+    color: #333;
+    margin: 0px 20px;
+}
+
+/* Footer */
+
+footer {
+    height: 100px;
+    text-align: center;
+    background: #444444;
+    padding: 35px;
+}
+
+/* ABOUT PAGE */
+
+#main-about {
+    background: #f4f4f4;
+    height: 400px;
+    padding: 30px 0;
+}
+
+#main-about h1 {
+    color: #333;
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+#main-about p {
+    color: #333;
+    margin: 10px 0;
+}
+
+#main-about #about-text {
+    float: left;
+    width: 50%;
+}
+
+#main-about #about-image {
+    float: right;
+    width: 50%;
+}
+
+#about-image img {
+    display: block;
+    margin: auto;
+    width: 80%;
+    border-radius: 50%;
+}
+
+#feedback {
+    background: url(/img/test-bg.jpg);
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+#feedback h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.feedback {
+    background: #f7c08a;
+    overflow: auto;
+    margin: 50px 0;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.feedback-img {
+    float: left;
+    width: 15%;
+}
+
+.feedback-text {
+    float: right;
+    width: 85%;
+}
+
+.person-img {
+    display: block;
+    width: 80%;
+    border-radius: 50%;
+    margin: auto;
+    
+}
+.feedback-text p {
+    color: #333;
+}
