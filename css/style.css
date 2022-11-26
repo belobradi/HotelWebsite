@@ -285,3 +285,75 @@ footer {
 .feedback-text p {
     color: #333;
 }
+
+/* CONTACT */
+
+#contact-form {
+    padding-top: 30px;
+    background: #ffffff;
+    height: 650px;
+}
+
+#contact-form h1 {
+    color: #000;
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+
+#contact-form p {
+    color: #000;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, textarea {
+    padding: 10px;
+    width: 100%;
+    border: #ddd solid 1px;
+}
+
+form textarea {
+    height: 200px;
+}
+
+.btn {
+    background: #333333;
+    padding: 13px 20px;
+    color: #fff;
+    font-size: 1.2em;
+    border: none;
+}
+.btn:hover {
+    color: #444444;
+    background: #f7c08a;
+}
+
+#contact-info {
+    background: #333333;
+    overflow: auto;
+}
+
+.three-in-raw {
+    width: 33%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    text-align: center;
+}
+
+.three-in-raw h1 {
+    font-size: 1.2em;
+}
+
+.three-in-raw p {
+    font-size: 1em;
+}

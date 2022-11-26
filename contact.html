@@ -4,9 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Hotel BT | Contact</title>
 </head>
 <body>
-    
+    <header>
+        <div id="navbar">
+            <div class="container">
+                <h1><a href="index.html">HBT</a></h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="contact-form">
+            <div class="container">
+                <h1><span>Contact</span> Us</h1>
+                <p>Please fill out the form below to contact us</p>
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input id="name" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input id="email" type="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </section>
+        <section id="contact-info">
+            <div class="container">
+                <div class="three-in-raw">
+                    <!-- <i class="fa-solid fa-building"></i> -->
+                    <h1>Location</h1>
+                    <p>50 Main st, Boston MA</p>
+                </div>
+                <div class="three-in-raw">
+                    <h1>Phone Number</h1>
+                    <p>(617) 555-5555</p>
+                </div>
+                <div class="three-in-raw">
+                    <h1>Email Address</h1>
+                    <p>frontdesk@hotelbt.co</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Hotel BT &#169; 2022, All RIghts Reserved</p>
+    </footer>
 </body>
 </html>
