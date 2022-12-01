@@ -15,7 +15,6 @@ h1 {
 }
 
 p {
-    color: #fff;
     line-height: 1.7em;
     font-size: 1.3em;
 }
@@ -167,20 +166,11 @@ span {
 /* Description */
 #desctiption {
     height: 310px;
-    text-align: center;
     background: #f4f4f4;
+    color: #333;
 }
 
-#desctiption #location {
-    float: left;
-    width: 33.33%;
-    height: 100%;
-}
-
-#desctiption #meals {
-    float: left;
-    width: 33.33%;
-    height: 100%;
+.bg-orange {
     background: #f7c08a;
 }
 
@@ -192,12 +182,10 @@ span {
 
 #desctiption h1 {
     color: #333;
-    margin: 70px 20px 40px 20px;
+    padding-bottom: 10px;
 }
 
 #desctiption p {
-    color: #333;
-    margin: 0px 20px;
 }
 
 /* Footer */
