@@ -1,0 +1,40 @@
+#navbar h2,
+#navbar ul,
+#navbar ul li {
+    float: none;
+}
+
+.container {
+    padding: 0;
+}
+
+#navbar ul li a {
+    padding: 15px;
+}
+
+#his-image {
+    float: none;
+    width: 100%;
+    height: 50%;
+}
+
+#his-text {
+    float: none;
+    width: 100%;
+    height: 50%;
+}
+
+#his-text h2 {
+    padding-top: 0;
+}
+
+#desctiption {
+    height: 600px;
+}
+
+.three-in-raw {
+    float: none;
+    width: 100%;
+    height: 33.3%;
+    padding: 30px;
+}

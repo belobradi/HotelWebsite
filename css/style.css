@@ -121,7 +121,7 @@ ul {
 
 /* history */
 #history {
-    height: 500px;
+    height: 600px;
 }
 
 #his-image {
@@ -136,18 +136,15 @@ ul {
     text-align: center;
     width: 50%;
     height: 100%;
+    padding: 30px;
 }
 
 #his-text h2 {
-    padding-top: 100px;
+    padding-top: 120px;
 }
 
 #his-text p{
-    margin: 0 40px;
-}
-
-#his-text a{
-    margin-top: 40px;
+    padding-bottom: 30px;
 }
 
 /* Description */
