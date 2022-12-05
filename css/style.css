@@ -59,6 +59,8 @@ ul {
     padding: 20px 30px;
     background: #333;
     display: inline-block;
+    color: #f4f4f4;
+    border: none;
 }
 
 .btn:hover {
@@ -248,7 +250,9 @@ footer {
 }
 
 .form-group {
+    color: #000;
     margin-bottom: 20px;
+    text-align: left;
 }
 
 form label {
